@@ -1,0 +1,82 @@
+p{
+  display: flex;
+  justify-content: center;
+}
+section{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  }
+  .Grid{
+    display: grid;
+    justify-content: center;
+  }
+
+.Franca {
+  width: 120px;
+  height: 180px;
+}
+.Holanda  {
+  width: 350px;
+  height: 70px;
+  }
+  .Bandeira{
+    position: relative;
+    width: 350px;
+    height: 250px;
+  }
+  .Losango{
+    position: absolute;
+  border-left: 105px solid yellow;
+  border-right: 105px solid yellow;
+  border-bottom: 65px solid yellow;
+  border-top: 10  px solid yellow;
+  transform: rotate(-160deg);
+    }
+
+.vermelhoFranca {
+  background-color: red;
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
+.azulFranca {
+  background-color: blue;
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
+.brancoFranca {
+  background-color: white;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
+
+
+.vermelhoHolanda {
+  background-color: red;
+  border-right: solid black 2px;
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+}
+.azulHolanda {
+  background-color: blue;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+  border-top: solid black 2px;
+}
+.brancoHolanda {
+  background-color: white;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+}
+
+.verdeBrasil{
+  background-color: green;
+}
+.amareloBrasil{
+  background-color: yellow;
+}
+.azulBrasil{
+  background-color: blue;
+}
