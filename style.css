@@ -1,39 +1,47 @@
+/* Textos */
 p{
   display: flex;
   justify-content: center;
 }
-section{
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  }
-  .Grid{
-    display: grid;
-    justify-content: center;
-  }
 
-.Franca {
-  width: 120px;
-  height: 180px;
+  /* SEÇÃO HOLANDA */
+.Grid{
+  display: grid;
+  justify-content: center;
 }
 .Holanda  {
   width: 350px;
   height: 70px;
   }
-  .Bandeira{
-    position: relative;
-    width: 350px;
-    height: 250px;
+  .vermelhoHolanda {
+    background-color: red;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
   }
-  .Losango{
-    position: absolute;
-  border-left: 105px solid yellow;
-  border-right: 105px solid yellow;
-  border-bottom: 65px solid yellow;
-  border-top: 10  px solid yellow;
-  transform: rotate(-160deg);
-    }
+  .azulHolanda {
+    background-color: blue;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-top: solid black 2px;
+  }
+  .brancoHolanda {
+    background-color: white;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+  }
 
+
+/* SEÇÕES BRASIL E FRANÇA */
+section{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.Franca {
+  width: 120px;
+  height: 180px;
+}
 .vermelhoFranca {
   background-color: red;
   border-right: solid black 2px;
@@ -52,31 +60,35 @@ section{
   border-top: solid black 2px;
 }
 
-
-.vermelhoHolanda {
-  background-color: red;
-  border-right: solid black 2px;
-  border-left: solid black 2px;
-  border-bottom: solid black 2px;
-}
-.azulHolanda {
-  background-color: blue;
-  border-left: solid black 2px;
-  border-right: solid black 2px;
-  border-top: solid black 2px;
-}
-.brancoHolanda {
-  background-color: white;
-  border-left: solid black 2px;
-  border-right: solid black 2px;
-}
-
-.verdeBrasil{
-  background-color: green;
-}
-.amareloBrasil{
-  background-color: yellow;
-}
-.azulBrasil{
-  background-color: blue;
-}
+/* SEÇÃO BRASIL */
+  .retangulo{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: green;
+    border: solid black 2px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .losango1{
+    position: absolute;
+   border-left: 175px solid transparent;
+   border-right: 175px solid transparent;
+   border-bottom: 125px solid yellow;
+   top: 0;
+    }
+  .losango2{
+    position: absolute;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    border-top: 125px solid yellow;
+    bottom: 0;
+     }
+  .circulo{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color: blue;
+    border-radius: 50%;
+  }
